@@ -50,7 +50,7 @@ WHERE c.continent = 'europe'
     AND e.year BETWEEN 2006 AND 2018
 ORDER BY country, `year`;
 
-SELECT * FROM t_matej_novak_project_sql_secondary_final;
+SELECT * FROM t_matej_novak_project_SQL_secondary_final;
 
 -- 1. DOTAZ
 
