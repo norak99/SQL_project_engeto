@@ -77,7 +77,7 @@ Poznámky k projektu:
 
 >**SQL dotazy** jsou v jednotlivých skriptech pro lepší přehlednost, pojmenované od první otázky (first_question_MN) po pátou, poslední otázku (fifth_question_MN).  
 >
->**Tabulky** jsou obě uloženy ve stejném skriptu, pojmenovaném jako project_tables.
+>**Tabulky** jsou obě uloženy ve stejném skriptu, pojmenovaném jako engeto_tables_MN.
 
 
 >**Primární tabulka** - Spojil jsem několik tabulek do sebe pro získání potřebných dat. Začínal jsem s czechia_price a postupně jsem napojil všechny další na základě společných hodnot. Problémové pro mě zde bylo již ze začátku jak spojit dvě nejdůlěžitější tabulky czechia_price a czechia_payroll. Šel jsem na to přes roky - tak jak   je i v zadání. V tabulce czechia_payroll byl přímo rok a v datovém typu INT, s tím se dalo pracovat. Ale v druhé tabulce, byl jiný typ date_from a musel jsem z něj   získat pouze rok. Pro to se dá použít DATE_FORMAT(cp.date_from, '%Y') nebo funkce YEAR (date_from). Použil jsem tedy funkci YEAR, která je k tomu přímo určená. Napojení dalších tabulek bylo bez problému. Stejně tak určení WHERE, abych data očistil - pracuji s celorepublikovými průměry. A na závěr seskupil.   
