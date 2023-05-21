@@ -5,7 +5,7 @@ SELECT
 	payroll_year,
 	avg(price_value) AS avereage_price,
 	avg(payroll_value) AS average_payroll, 
-	round(avg(payroll_value) / avg(price_value)) AS average_ks
+	round(avg(payroll_value) / avg(price_value)) AS average_pcs
 FROM
 	t_matej_novak_project_sql_primary_final
 WHERE
