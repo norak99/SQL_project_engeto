@@ -1,4 +1,4 @@
-# Analýza dostupnosti základních potravin široké veřejnosti
+# Analýza dostupnosti základních potravin
 
  ### Popis datových sad a tabulek použitých v projektu -    
  
